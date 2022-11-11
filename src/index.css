@@ -4,8 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-image: url("https://i.pinimg.com/originals/37/5e/99/375e99cd4d4efa68bf4064c16ec42bf4.jpg");
   overflow-x: hidden;
 }
 #root {
@@ -55,6 +54,11 @@ h1 {
   align-content: center;
   display: flex;
   text-align: center;
+  padding-bottom: 1rem;
+}
+.back {
+  background: rgb(365, 365, 365, 0.7);
+  border-radius: 2rem;
 }
 
 .member-page > div {
@@ -112,11 +116,6 @@ h1 {
   border-radius: 1rem;
   color: #000;
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
-}
-
-.btn-hero {
-  margin: auto;
-  width: 250px;
 }
 
 button {
